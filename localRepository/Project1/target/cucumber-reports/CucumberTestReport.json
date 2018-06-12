@@ -1,0 +1,100 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Successful Login",
+        "description": "",
+        "id": "login;successful-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 125011591,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "Login.userIsOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63716,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User navigates to Login Page",
+            "match": {
+              "location": "Login.userNavigatesToLoginPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54613,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enters Valid credentials",
+            "match": {
+              "location": "Login.entersValidCredentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85333,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User navigates to landing page",
+            "match": {
+              "location": "Login.userNavigatesToLandingPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 75094,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "welcome message displayed",
+            "match": {
+              "location": "Login.welcomeMessageDisplayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "I want to use this template for my feature file",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@tag"
+      }
+    ]
+  }
+]
