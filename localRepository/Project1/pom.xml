@@ -122,7 +122,7 @@
 						<id>execution</id>
 						<phase>verify</phase>
 						<goals>
-							<goal>generate</goal>
+							<goal></goal>
 						</goals>
 						<configuration>
 							<projectName>Project1</projectName>  <!-- Replace with project name -->
